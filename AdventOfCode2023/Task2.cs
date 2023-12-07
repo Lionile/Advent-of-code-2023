@@ -9,7 +9,7 @@ namespace AdventOfCode2023
 {
     internal class Task2
     {
-        const string filename = "task2.txt";
+        const string filename = "../../../test files/task2.txt";
 
         const string pattern = @"(\d+) (red|green|blue)";
 

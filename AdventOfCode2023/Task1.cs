@@ -8,9 +8,9 @@ namespace AdventOfCode2023
 {
     public class Task1
     {
-        const string filename = "task1.txt";
-        const string testFilename1 = "task1test.txt";
-        const string testFilename2 = "task1test2.txt";
+        const string filename = "../../../test files/task1.txt";
+        const string testFilename1 = "../../../test files/task1test.txt";
+        const string testFilename2 = "../../../test files/task1test2.txt";
 
         readonly static Dictionary<string, char> numberWords = new Dictionary<string, char>() { { "one", '1' }, { "two", '2' }, { "three", '3' }, { "four", '4' },
                                                                                         {"five", '5' }, {"six", '6' }, {"seven", '7' }, {"eight", '8' }, {"nine", '9' }};
